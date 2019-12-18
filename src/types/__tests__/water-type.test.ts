@@ -43,7 +43,7 @@ describe("WaterType", () => {
     subject.testAttackEffectivenessOn(new FairyType(), 1);
   });
 
-  describe(".damageEffectivenessFrom", () => {
+  describe(".defenseEffectivenessOn", () => {
     subject.testDefendEffectivenessOn(new NormalType(), 1);
     subject.testDefendEffectivenessOn(new FightingType(), 1);
     subject.testDefendEffectivenessOn(new FlyingType(), 1);
