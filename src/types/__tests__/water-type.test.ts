@@ -1,23 +1,21 @@
-import {
-  FireType,
-  RockType,
-  GroundType,
-  GrassType,
-  DragonType,
-  SteelType,
-  IceType,
-  ElectricType,
-  NormalType,
-  FightingType,
-  FlyingType,
-  PoisonType,
-  BugType,
-  GhostType,
-  PsychicType,
-  DarkType,
-  FairyType
-} from "../type";
+import NormalType from "../normal-type";
+import FightingType from "../fighting-type";
+import FlyingType from "../flying-type";
+import PoisonType from "../poison-type";
+import GroundType from "../ground-type";
+import RockType from "../rock-type";
+import BugType from "../bug-type";
+import GhostType from "../ghost-type";
+import SteelType from "../steel-type";
+import FireType from "../fire-type";
 import WaterType from "../water-type";
+import GrassType from "../grass-type";
+import ElectricType from "../electric-type";
+import PsychicType from "../psychic-type";
+import IceType from "../ice-type";
+import DragonType from "../dragon-type";
+import FairyType from "../fairy-type";
+import DarkType from "../dark-type";
 
 import { setupTestFor } from "../__jest__/effectiveness-test-helpers";
 
