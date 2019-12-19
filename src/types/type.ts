@@ -18,7 +18,8 @@ export type TypeName =
   | "ice"
   | "dragon"
   | "dark"
-  | "fairy";
+  | "fairy"
+  | "none";
 
 export class Type {
   name: TypeName;
@@ -34,4 +35,14 @@ export class Type {
   defenseEffectivenessOn(_type: Type): IEffectiveness {
     return Effectiveness.for(1);
   }
+}
+
+export class NoType extends Type {
+  constructor() {
+    super("none");
+  }
+}
+
+export function isTypeDefined(type: Type) {
+  return type.name !== "none";
 }
