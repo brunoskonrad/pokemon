@@ -1,8 +1,8 @@
-import { Type, NoType, isTypeDefined } from "./types/type";
+import { Type, NoType, isTypeDefined } from "../types/type";
 import Effectiveness, {
   IEffectiveness,
   EffectivenessLevel
-} from "./effectiveness";
+} from "../effectiveness";
 
 export default class PokemonType {
   private primaryType: Type;

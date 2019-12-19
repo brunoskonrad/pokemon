@@ -1,13 +1,13 @@
 import PokemonType from "../pokemon-type";
 
-import NormalType from "../types/normal-type";
-import ElectricType from "../types/electric-type";
-import RockType from "../types/rock-type";
-import GroundType from "../types/ground-type";
-import WaterType from "../types/water-type";
-import IceType from "../types/ice-type";
-import GrassType from "../types/grass-type";
-import FlyingType from "../types/flying-type";
+import NormalType from "../../types/normal-type";
+import ElectricType from "../../types/electric-type";
+import RockType from "../../types/rock-type";
+import GroundType from "../../types/ground-type";
+import WaterType from "../../types/water-type";
+import IceType from "../../types/ice-type";
+import GrassType from "../../types/grass-type";
+import FlyingType from "../../types/flying-type";
 
 describe("PokemonType", () => {
   describe(".primary", () => {
